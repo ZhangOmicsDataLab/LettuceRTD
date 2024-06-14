@@ -1,0 +1,6 @@
+# YAML
+run_modules:
+  - salmon
+plots_force_interactive: T
+max_table_rows: 20
+no_version_check: true

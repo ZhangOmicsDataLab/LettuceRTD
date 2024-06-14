@@ -1,0 +1,15 @@
+# YAML
+run_modules:
+  - fastp
+  - fastqc
+plots_force_interactive: T
+max_table_rows: 20
+no_version_check: true
+extra_fn_clean_exts:
+  - type: remove
+    pattern: _trim-report_fastp
+    module:
+      - fastp
+fn_ignore_dirs:
+  - "03_fastq_trimmed"
+  - "04_salmon_quant"
